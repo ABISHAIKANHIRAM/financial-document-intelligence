@@ -1,0 +1,55 @@
+{
+  "dataset_notice": "All companies, figures, and documents in this dataset are fictional and synthetic. They are not real financial disclosures.",
+  "documents": [
+    {
+      "file": "01_northstar_annual_report_2025.pdf",
+      "company": "Northstar Components GmbH",
+      "financial_year": 2025,
+      "currency": "EUR",
+      "expected_metrics": {
+        "revenue": 12500000,
+        "ebitda": 2100000,
+        "ebit": 1600000,
+        "net_income": 1050000,
+        "total_assets": 18400000,
+        "total_liabilities": 7200000,
+        "operating_cash_flow": 1350000,
+        "employees_year_end": 84,
+        "revenue_growth_percent": 15.7,
+        "average_employees": 81
+      },
+      "notes": "The PDF includes a text layer and a table. Average employees (81) differs from year-end employees (84)."
+    },
+    {
+      "file": "02_northstar_press_release_2025.pdf",
+      "company": "Northstar Components GmbH",
+      "financial_year": 2025,
+      "currency": "EUR",
+      "expected_metrics": {
+        "preliminary_revenue": 12300000,
+        "preliminary_ebitda": 2000000,
+        "employees_year_end": 84
+      },
+      "notes": "Preliminary unaudited values intentionally differ from the final annual report. Preserve status and source."
+    },
+    {
+      "file": "03_alpine_works_scanned_statement.pdf",
+      "company": "Alpine Works AG",
+      "financial_year": 2025,
+      "currency": "EUR",
+      "expected_metrics": {
+        "revenue": 8750000,
+        "cost_of_sales": 5100000,
+        "gross_profit": 3650000,
+        "ebitda": 1420000,
+        "depreciation_and_amortisation": 390000,
+        "ebit": 1030000,
+        "net_income": 645000,
+        "total_assets": 11200000,
+        "total_liabilities": 4850000,
+        "employees_year_end": 56
+      },
+      "notes": "Image-only PDF intended to test scanned-page detection and OCR fallback."
+    }
+  ]
+}

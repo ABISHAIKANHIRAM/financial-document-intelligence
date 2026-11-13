@@ -1,0 +1,176 @@
+{
+  "timestamp": "2026-11-13T11:56:12.691754",
+  "score_percentage": 100.0,
+  "checks_passed": 27,
+  "checks_total": 27,
+  "duration_seconds": 9.353,
+  "documents": [
+    {
+      "file": "01_northstar_annual_report_2025.pdf",
+      "company": "Northstar Components GmbH",
+      "financial_year": 2025,
+      "currency": "EUR",
+      "checks": [
+        {
+          "check": "text_layer_detection",
+          "status": "PASS"
+        }
+      ],
+      "metric_assertions": [
+        {
+          "metric": "revenue",
+          "expected": 12500000,
+          "status": "PASS"
+        },
+        {
+          "metric": "ebitda",
+          "expected": 2100000,
+          "status": "PASS"
+        },
+        {
+          "metric": "ebit",
+          "expected": 1600000,
+          "status": "PASS"
+        },
+        {
+          "metric": "net_income",
+          "expected": 1050000,
+          "status": "PASS"
+        },
+        {
+          "metric": "total_assets",
+          "expected": 18400000,
+          "status": "PASS"
+        },
+        {
+          "metric": "total_liabilities",
+          "expected": 7200000,
+          "status": "PASS"
+        },
+        {
+          "metric": "operating_cash_flow",
+          "expected": 1350000,
+          "status": "PASS"
+        },
+        {
+          "metric": "employees_year_end",
+          "expected": 84,
+          "status": "PASS"
+        },
+        {
+          "metric": "revenue_growth_percent",
+          "expected": 15.7,
+          "status": "PASS"
+        },
+        {
+          "metric": "average_employees",
+          "expected": 81,
+          "status": "PASS"
+        }
+      ],
+      "duration_seconds": 0.092
+    },
+    {
+      "file": "02_northstar_press_release_2025.pdf",
+      "company": "Northstar Components GmbH",
+      "financial_year": 2025,
+      "currency": "EUR",
+      "checks": [
+        {
+          "check": "text_layer_detection",
+          "status": "PASS"
+        }
+      ],
+      "metric_assertions": [
+        {
+          "metric": "preliminary_revenue",
+          "expected": 12300000,
+          "status": "PASS"
+        },
+        {
+          "metric": "preliminary_ebitda",
+          "expected": 2000000,
+          "status": "PASS"
+        },
+        {
+          "metric": "employees_year_end",
+          "expected": 84,
+          "status": "PASS"
+        }
+      ],
+      "duration_seconds": 0.061
+    },
+    {
+      "file": "03_alpine_works_scanned_statement.pdf",
+      "company": "Alpine Works AG",
+      "financial_year": 2025,
+      "currency": "EUR",
+      "checks": [
+        {
+          "check": "scanned_detection",
+          "status": "PASS"
+        }
+      ],
+      "metric_assertions": [
+        {
+          "metric": "revenue",
+          "expected": 8750000,
+          "status": "PASS"
+        },
+        {
+          "metric": "cost_of_sales",
+          "expected": 5100000,
+          "status": "PASS"
+        },
+        {
+          "metric": "gross_profit",
+          "expected": 3650000,
+          "status": "PASS"
+        },
+        {
+          "metric": "ebitda",
+          "expected": 1420000,
+          "status": "PASS"
+        },
+        {
+          "metric": "depreciation_and_amortisation",
+          "expected": 390000,
+          "status": "PASS"
+        },
+        {
+          "metric": "ebit",
+          "expected": 1030000,
+          "status": "PASS"
+        },
+        {
+          "metric": "net_income",
+          "expected": 645000,
+          "status": "PASS"
+        },
+        {
+          "metric": "total_assets",
+          "expected": 11200000,
+          "status": "PASS"
+        },
+        {
+          "metric": "total_liabilities",
+          "expected": 4850000,
+          "status": "PASS"
+        },
+        {
+          "metric": "employees_year_end",
+          "expected": 56,
+          "status": "PASS"
+        }
+      ],
+      "duration_seconds": 6.02
+    },
+    {
+      "file": "entire-omv-ar25.xlsx",
+      "sheets": 300,
+      "prioritized_chunks": 50,
+      "status": "PASS",
+      "duration_seconds": 2.712
+    }
+  ]
+}
